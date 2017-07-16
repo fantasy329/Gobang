@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>magadropdown</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="../jq/jquery-3.2.1.js"></script>
+  <script src="script.js"></script>
+  <script src="tools.js"></script>
+</head>
+</head>
+<body>
+  <div class="wrap" id="test">
+    <ul>
+      <li data-id="a">
+        <span>家用电器</span>
+      </li>
+      <li data-id="b">
+        <span>手机/运营商/数码</span>
+      </li>
+      <li data-id="c">
+        <span>电脑/办公</span>
+      </li>
+      <li data-id="d">
+        <span>家居/家具/家装/厨具</span>
+      </li>
+      <li data-id="e">
+        <span>男装/女装/童装/内衣</span>
+      </li>
+      <li data-id="f">
+        <span>美妆个护/宠物</span>
+      </li>
+      <li data-id="g">
+        <span>女鞋/箱包/钟表/珠宝</span>
+      </li>
+      <li data-id="h">
+        <span>男鞋/运动/户外</span>
+      </li>
+      <li data-id="i">
+        <span>汽车/汽车用品</span>
+      </li>
+      <li data-id="j">
+        <span>母婴/玩具乐器</span>
+      </li>
+      <li data-id="k">
+        <span>食品/酒类/生鲜/特产</span>
+      </li>
+      <li data-id="l">
+        <span>礼品鲜花/农资绿植</span>
+      </li>
+      <li data-id="m">
+        <span>医药保健/计生情趣</span>
+      </li>
+      <li data-id="n">
+        <span>图书/音像/电子书</span>
+      </li>
+      <li data-id="o">
+        <span>机票/酒店/旅游/生活</span>
+      </li>
+      <li data-id="p">
+        <span>理财/众筹/白条/保险</span>
+      </li>
+    </ul>
+    <div id="sub" class="none">
+      <div id="a" class="sub_content none">
+        <div class="event">
+            <a href="#">家电馆<i>&gt</i></a>
+            <a href="#">乡镇专卖店<i>&gt</i></a>
+            <a href="#">家电服务<i>&gt</i></a>
+            <a href="#">家电企业购<i>&gt</i></a>
+            <a href="#">商用电器<i>&gt</i></a>
+            <a href="#">高端家电<i>&gt</i></a>
+        </div>
+        <dl>
+          <dt>
+            <a href="#">电视<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">曲面电视</a>
+            <a href="#">超薄电视</a>
+            <a href="#">HDR电视</a>
+            <a href="#">OLED电视</a>
+            <a href="#">4K超清电视</a>
+            <a href="#">电视配件</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">空调<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">壁挂式空调</a>
+            <a href="#">柜式空调</a>
+            <a href="#">中央空调</a>
+            <a href="#">以旧换新</a>
+            <a href="#">空调配件</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">洗衣机<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">滚筒洗衣机</a>
+            <a href="#">洗烘一体机</a>
+            <a href="#">波轮洗衣机</a>
+            <a href="#">迷你洗衣机</a>
+            <a href="#">洗衣机配件</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">冰箱<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">多门</a>
+            <a href="#">对开门</a>
+            <a href="#">三门</a>
+            <a href="#">双门</a>
+            <a href="#">冷柜</a>
+            <a href="#">冰吧</a>
+            <a href="#">冰箱配件</a>
+          </dd>
+        </dl>
+      </div>
+      <div id="b" class="sub_content none">
+        <div class="event">
+            <a href="#">玩3C<i>&gt</i></a>
+            <a href="#">手机频道<i>&gt</i></a>
+            <a href="#">网上营业厅<i>&gt</i></a>
+            <a href="#">配件选购中心<i>&gt</i></a>
+            <a href="#">影像Club<i>&gt</i></a>
+            <a href="#">以旧换新<i>&gt</i></a>
+        </div>
+        <dl>
+          <dt>
+            <a href="#">手机通讯<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">手机</a>
+            <a href="#">对讲机</a>
+            <a href="#">手机维修</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">运营商<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">合约机</a>
+            <a href="#">选号码</a>
+            <a href="#">办套餐</a>
+            <a href="#">充话费/流量</a>
+            <a href="#">中国电信</a>
+            <a href="#">中国移动</a>
+            <a href="#">中国联通</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">手机配件<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">手机壳</a>
+            <a href="#">贴膜</a>
+            <a href="#">手机存储卡</a>
+            <a href="#">数据线</a>
+            <a href="#">充电器</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">摄影摄像<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">数码相机</a>
+            <a href="#">单电/微单相机</a>
+            <a href="#">单反相机</a>
+            <a href="#">拍立得</a>
+            <a href="#">镜头</a>
+          </dd>
+        </dl>
+      </div>
+      <div id="c" class="sub_content none">
+        <div class="event">
+            <a href="#">玩3C<i>&gt</i></a>
+            <a href="#">本周热卖<i>&gt</i></a>
+            <a href="#">游戏部落<i>&gt</i></a>
+            <a href="#">GAME+<i>&gt</i></a>
+            <a href="#">装机大师<i>&gt</i></a>
+            <a href="#">私人定制<i>&gt</i></a>
+        </div>
+        <dl>
+          <dt>
+            <a href="#">电脑整机<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">笔记本</a>
+            <a href="#">游戏本</a>
+            <a href="#">平板电脑</a>
+            <a href="#">台式机</a>
+            <a href="#">一体机</a>
+            <a href="#">服务器/工作站</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">电脑配件<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">显示器</a>
+            <a href="#">CPU</a>
+            <a href="#">主板</a>
+            <a href="#">显卡</a>
+            <a href="#">硬盘</a>
+            <a href="#">内存</a>
+            <a href="#">声卡/扩展卡</a>
+            <a href="#">SSD固态硬盘</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">外设产品<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">鼠标</a>
+            <a href="#">键盘</a>
+            <a href="#">U盘</a>
+            <a href="#">移动硬盘</a>
+            <a href="#">摄像头</a>
+            <a href="#">手写板</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">游戏设备<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">游戏机</a>
+            <a href="#">游戏耳机</a>
+            <a href="#">手柄/方向盘</a>
+            <a href="#">游戏软件</a>
+            <a href="#">游戏周边</a>
+          </dd>
+        </dl>
+      </div>
+      <div id="d" class="sub_content none">
+        <div class="event">
+            <a href="#">家装城<i>&gt</i></a>
+            <a href="#">居家日用<i>&gt</i></a>
+            <a href="#">精品家具<i>&gt</i></a>
+            <a href="#">家装建材<i>&gt</i></a>
+            <a href="#">厨房达人<i>&gt</i></a>
+            <a href="#">装修服务<i>&gt</i></a>
+        </div>
+        <dl>
+          <dt>
+            <a href="#">厨具<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">锅具</a>
+            <a href="#">刀剪</a>
+            <a href="#">菜板</a>
+            <a href="#">厨房配件</a>
+            <a href="#">水具</a>
+            <a href="#">酒具</a>
+            <a href="#">餐具</a>
+            <a href="#">茶具/咖啡具</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">家纺<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">床品套件</a>
+            <a href="#">被子</a>
+            <a href="#">枕芯</a>
+            <a href="#">蚊帐</a>
+            <a href="#">地毯地垫</a>
+            <a href="#">凉席</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">生活用品<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">收纳用品</a>
+            <a href="#">雨伞雨具</a>
+            <a href="#">净化除味</a>
+            <a href="#">浴室用品</a>
+            <a href="#">缝纫/针织用品</a>
+            <a href="#">清洁工具</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">家具<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">卧室家具</a>
+            <a href="#">客厅家具</a>
+            <a href="#">餐厅家具</a>
+            <a href="#">书房家具</a>
+            <a href="#">儿童家具</a>
+            <a href="#">办公家具</a>
+          </dd>
+        </dl>
+      </div>
+            <div id="e" class="sub_content none">
+        <div class="event">
+            <a href="#">男装<i>&gt</i></a>
+            <a href="#">女装<i>&gt</i></a>
+            <a href="#">内衣<i>&gt</i></a>
+            <a href="#">童装童鞋<i>&gt</i></a>
+            <a href="#">国际品牌<i>&gt</i></a>
+            <a href="#">自营服装<i>&gt</i></a>
+        </div>
+        <dl>
+          <dt>
+            <a href="#">女装<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">当季热卖</a>
+            <a href="#">2017新品</a>
+            <a href="#">连衣裙</a>
+            <a href="#">T恤</a>
+            <a href="#">雪纺衫</a>
+            <a href="#">休闲裤</a>
+            <a href="#">半身裙</a>
+            <a href="#">衬衫</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">男装<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">当季热卖</a>
+            <a href="#">2017新品</a>
+            <a href="#">polo衫</a>
+            <a href="#">T恤</a>
+            <a href="#">牛仔裤</a>
+            <a href="#">休闲裤</a>
+            <a href="#">夹克衫</a>
+            <a href="#">衬衫</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">内衣<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">睡衣</a>
+            <a href="#">文胸</a>
+            <a href="#">男士内裤</a>
+            <a href="#">女士内裤</a>
+            <a href="#">吊带/背心</a>
+            <a href="#">情侣睡衣</a>
+          </dd>
+        </dl>
+        <dl>
+          <dt>
+            <a href="#">童装童鞋<i>&gt</i></a>
+          </dt>
+          <dd>
+            <a href="#">套装</a>
+            <a href="#">上衣</a>
+            <a href="#">裤子</a>
+            <a href="#">裙子</a>
+            <a href="#">运动服</a>
+            <a href="#">内衣</a>
+          </dd>
+        </dl>
+    </div>
+  </div>
+</body>
+</html>
